@@ -1,0 +1,2 @@
+source_ip,failed_attempts,finding
+203.0.113.44,5,At least 5 failed login attempts from this IP

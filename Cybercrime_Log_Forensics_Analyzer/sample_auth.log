@@ -1,0 +1,13 @@
+Oct 22 01:02:11 lab-server sshd[1201]: Failed password for invalid user admin from 203.0.113.44 port 40211 ssh2
+Oct 22 01:03:08 lab-server sshd[1202]: Failed password for invalid user admin from 203.0.113.44 port 40212 ssh2
+Oct 22 01:03:54 lab-server sshd[1203]: Failed password for invalid user test from 203.0.113.44 port 40213 ssh2
+Oct 22 01:04:27 lab-server sshd[1204]: Failed password for user student from 203.0.113.44 port 40214 ssh2
+Oct 22 01:05:12 lab-server sshd[1205]: Failed password for invalid user guest from 203.0.113.44 port 40215 ssh2
+Oct 22 08:15:22 lab-server sshd[1210]: Accepted publickey for analyst from 192.0.2.15 port 51220 ssh2
+Oct 22 09:30:01 lab-server sshd[1211]: session opened for user analyst
+Oct 22 23:48:17 lab-server sshd[1301]: Failed password for invalid user oracle from 198.51.100.77 port 60001 ssh2
+Oct 22 23:49:10 lab-server sshd[1302]: Failed password for invalid user oracle from 198.51.100.77 port 60002 ssh2
+Oct 22 23:50:06 lab-server sshd[1303]: Failed password for invalid user oracle from 198.51.100.77 port 60003 ssh2
+2026-10-22 10:14:03 lab-server sshd[1401]: Failed password for user demo from 192.0.2.88 port 50111 ssh2
+2026-10-22 10:16:41 lab-server sshd[1402]: Accepted password for demo from 192.0.2.88 port 50112 ssh2
+2026-10-22 11:05:09 lab-server sshd[1403]: pam_unix(sshd:auth): authentication failure; user=unknown rhost=192.0.2.88

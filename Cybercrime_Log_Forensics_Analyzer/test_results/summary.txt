@@ -1,0 +1,18 @@
+CYBERCRIME LOG FORENSICS ANALYZER — SUMMARY
+================================================
+Input file: sample_auth.log
+Total non-empty log lines: 13
+Failed-login events: 10
+Successful-login events: 3
+Other/unclassified events: 0
+Source IPs meeting failed-attempt threshold (5): 1
+Authentication events in configured unusual hours (00:00–05:00): 5
+Flagged events (deduplicated): 5
+
+Interpretation:
+- Flags are heuristic leads, not proof of a cybercrime or compromise.
+- Confirm time zones, host configuration, NAT/shared IPs, and user context.
+- Preserve the original log and document how it was obtained.
+
+Generated files: event_timeline.csv, suspicious_ips.csv, flagged_events.csv,
+event_counts.png, failed_attempts_by_ip.png, summary.txt
